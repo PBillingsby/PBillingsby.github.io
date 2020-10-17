@@ -3,8 +3,22 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div className="float-right">PHIL BILLINGSBY</div>
-      <div className="text-center">
+      <div className="float-left w-25 mr-5 mb-5">
+        <h2 className="pt-4">
+          PHIL <div className="pl-4">BILLINGSBY</div>
+        </h2>
+        <sup className="ml-5">
+          <strong>Software Developer</strong>
+        </sup>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+          commodi nam at illo iure, animi fugiat accusantium quia nesciunt
+          debitis quas, molestias ipsa qui dolor eaque, dolorem fuga iusto
+          ullam? Eos, ad!
+        </p>
+      </div>
+      <br />
+      <div className="mx-auto w-75">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
         commodi nam at illo iure, animi fugiat accusantium quia nesciunt debitis
         quas, molestias ipsa qui dolor eaque, dolorem fuga iusto ullam? Eos, ad!

@@ -1,5 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap");
+body {
+  color: white;
+  background-color: black;
+  font-family: Montserrat;
+}
 .link-style {
+  font-family: Raleway;
   font-size: 1.5em;
   margin-right: 50px;
-  color: #815533;
+  text-decoration: none;
+  color: #8d8d8d;
+}
+.link-style:hover {
+  color: white;
+}
+
+h2 {
+  color: rgb(255, 172, 46);
+}
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 100ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 100ms ease-in;
 }
