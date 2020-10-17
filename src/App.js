@@ -7,8 +7,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <header className="beer-background-header pt-3">
+    <div className="container">
+      <header className="pt-3">
         <NavBar />
       </header>
       <Routes />
