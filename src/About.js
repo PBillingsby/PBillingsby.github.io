@@ -8,13 +8,11 @@ const About = () => {
           PHIL <div className="pl-4">BILLINGSBY</div>
         </h2>
         <sup className="ml-5">
-          <strong>Software Developer</strong>
+          <strong>Full-Stack Software Developer</strong>
         </sup>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
-          commodi nam at illo iure, animi fugiat accusantium quia nesciunt
-          debitis quas, molestias ipsa qui dolor eaque, dolorem fuga iusto
-          ullam? Eos, ad!
+          Based in Las Vegas, Nevada. I enjoy designing, building, breaking, and
+          fixing web applications.
         </p>
       </div>
       <br />
