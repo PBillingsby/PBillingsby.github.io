@@ -12,7 +12,7 @@ const Routes = ({ location }) => {
         <CSSTransition
           classNames={"fade"}
           key={location.key}
-          timeout={{ enter: 300, exit: 300 }}
+          timeout={{ enter: 100, exit: 300 }}
         >
           <Switch location={location}>
             <Route exact path="/">

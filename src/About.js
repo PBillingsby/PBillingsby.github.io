@@ -3,13 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div className="float-left w-25 mr-5 mb-5">
-        <h2 className="pt-4">
-          PHIL <div className="pl-4">BILLINGSBY</div>
-        </h2>
-        <sup className="ml-5">
-          <strong>Full-Stack Software Developer</strong>
-        </sup>
+      <div className="float-left w-25 pt-4">
+        <h4 className="orange-color">Full-Stack Software Developer</h4>
         <p>
           Based in Las Vegas, Nevada. I enjoy designing, building, breaking, and
           fixing web applications.

@@ -4,6 +4,17 @@ body {
   background-color: black;
   font-family: Montserrat;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.orange-color,
+h2 {
+  color: rgb(255, 172, 46);
+}
 .link-style {
   font-family: Raleway;
   font-size: 1.5em;
@@ -14,24 +25,20 @@ body {
 .link-style:hover {
   color: white;
 }
-
-h2 {
-  color: rgb(255, 172, 46);
-}
 .fade-enter {
-  opacity: 0.01;
+  opacity: 0.4;
 }
 
 .fade-enter.fade-enter-active {
   opacity: 1;
-  transition: opacity 100ms ease-in;
+  transition: opacity 200ms ease-in;
 }
 
 .fade-exit {
-  opacity: 1;
+  opacity: 0;
 }
 
 .fade-exit.fade-exit-active {
-  opacity: 0.01;
+  opacity: 0.4;
   transition: opacity 100ms ease-in;
 }
