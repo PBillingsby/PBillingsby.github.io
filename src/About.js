@@ -11,7 +11,7 @@ const About = () => {
         </p>
       </div>
       <br />
-      <div className="mx-auto w-75">
+      <div className="mx-auto pt-1 w-75">
         Ruby on Rails, React, JavaScript, Redux Facilis non soluta delectus,
         modi asperiores rerum a placeat, quasi repellat blanditiis, maiores eos
         iure cupiditate saepe veniam aperiam nam! Perspiciatis suscipit, nam

@@ -4,7 +4,8 @@ const projects = [
     url: "https://github.com/PBillingsby/skate-mate-project",
     description:
       "Ruby on Rails application for skateboarders worldwide to store skatepark and spot photos and information.",
-    tech: ["Ruby On Rails", "ActiveRecord", "HTML", "CSS"]
+    tech: ["Ruby On Rails", "ActiveRecord", "HTML", "CSS"],
+    src: "../public/images/sm-screenshot.png"
   },
   {
     title: "The Daily Bump",
@@ -14,5 +15,5 @@ const projects = [
     tech: ["JavaScript", "Ruby on Rails", "ActiveRecord", "Bootstrap"]
   }
 ];
-
+debugger;
 export default projects;

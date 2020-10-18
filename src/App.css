@@ -11,6 +11,9 @@ footer {
   width: 100%;
   margin: auto;
 }
+.bg-opacity {
+  background-color: #333;
+}
 .orange-color,
 h2 {
   color: rgb(255, 172, 46);
