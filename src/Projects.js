@@ -3,7 +3,8 @@ const projects = [
     title: "Arvo Beers",
     url: "https://github.com/PBillingsby/arvo-beers-api",
     description: "React, Redux and Rails application personal beer database.",
-    tech: ["React", "Redux", "JavaScript", "Ruby on Rails", "Bootstrap"]
+    tech: ["React", "Redux", "JavaScript", "Ruby on Rails", "Bootstrap"],
+    src: require("./images/ab-screenshot.png")
   },
   {
     title: "The Daily Bump",
