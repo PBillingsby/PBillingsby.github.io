@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 import projects from "./Projects";
 const Work = () => {
   return (
-    <div class="row text-center">
+    <div class="row text-center pt-4">
       {projects.map(project => {
         return <ProjectCard project={project} />;
       })}
