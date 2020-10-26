@@ -1,5 +1,6 @@
 const projects = [
   {
+    index: 0,
     title: "Arvo Beers",
     url: "https://github.com/PBillingsby/arvo-beers-api",
     description: "React, Redux and Rails application personal beer database.",
@@ -7,6 +8,7 @@ const projects = [
     src: require("./images/ab-screenshot.png")
   },
   {
+    index: 1,
     title: "The Daily Bump",
     url: "https://github.com/PBillingsby/the-daily-bump",
     description:
@@ -15,6 +17,7 @@ const projects = [
     src: require("./images/tdb-screenshot.png")
   },
   {
+    index: 2,
     title: "Skate-Mate",
     url: "https://github.com/PBillingsby/skate-mate-project",
     description:
