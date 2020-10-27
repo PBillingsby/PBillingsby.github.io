@@ -7,24 +7,24 @@ const ProjectCard = props => {
     const cardImg = card.parentNode.parentElement.firstElementChild;
     if (bool === true) {
       card.classList = "card-info";
-      cardParent.style.width = "30rem";
-      cardImg.style.height = "10rem";
+      cardParent.style.width = "60rem";
+      cardImg.style.height = "auto";
     } else if (bool === false) {
       card.classList += " hide-card";
-      cardParent.style.width = "20rem";
-      cardImg.style.height = "";
+      cardParent.style.width = "40rem";
+      cardImg.style.height = "auto";
     }
   };
   return (
-    <div className="mx-auto p-3">
+    <div className="p-3">
       <div
-        className="card text-white bg-opacity"
+        className="card mx-auto text-white bg-opacity"
         onMouseEnter={() => showInfo(project, true)}
         onMouseLeave={() => showInfo(project, false)}
-        style={{ width: "20rem" }}
+        style={{ width: "40rem" }}
       >
         <img src={project.src} className="card-img-top img-thumbnail" />
-        <div className="card-body">
+        <div className="card-body text-center">
           <h2 class="card-title">{project.title}</h2>
           <div class="card-info hide-card">
             <p>{project.description}</p>
