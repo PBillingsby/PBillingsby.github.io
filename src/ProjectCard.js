@@ -4,9 +4,9 @@ const ProjectCard = props => {
   const { project } = props;
 
   return (
-    <div className="mx-auto">
+    <div>
       <div
-        className="card mx-auto text-white bg-opacity"
+        className="card border border-black text-white bg-opacity"
         style={{ width: "50rem" }}
       >
         <img src={project.src} className="card-img-top" />
