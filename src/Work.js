@@ -13,18 +13,34 @@ class Work extends React.Component {
     });
   }
   removeProject() {
-    debugger;
+    if (this.state.project != null) {
+      this.setState({
+        project: null
+      });
+    }
   }
   render() {
     return (
       <div className="container row">
         <div className="pt-5">
-          <ul>
+          <ul className="list-group">
             <li
               onMouseOver={() => this.showProject(projects, 2)}
               onMouseOut={() => this.removeProject()}
             >
               Skate-Mate
+            </li>
+            <li
+              onMouseOver={() => this.showProject(projects, 1)}
+              onMouseOut={() => this.removeProject()}
+            >
+              The Daily Bump
+            </li>
+            <li
+              onMouseOver={() => this.showProject(projects, 0)}
+              onMouseOut={() => this.removeProject()}
+            >
+              Arvo Beers
             </li>
           </ul>
         </div>
