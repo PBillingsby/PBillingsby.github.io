@@ -4,7 +4,8 @@ const Contact = () => {
   return (
     <div>
       <div className="container w-50 p-3 bg-light">
-        <form className="form-group row w-50">
+        <h4 className="text-center text-dark">Contact me</h4>
+        <form className="form-group mx-auto row w-50">
           <div className="col-sm">
             <input
               type="text"
