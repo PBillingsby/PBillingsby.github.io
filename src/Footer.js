@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="fixed-bottom pl-3 pb-2">
+      <footer className="fixed-bottom pl-3 mt-4">
         <span className="mx-auto">
           <p className="d-inline-block">Phil Billingsby 2020</p>
 

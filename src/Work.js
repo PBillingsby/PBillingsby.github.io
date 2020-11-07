@@ -20,7 +20,7 @@ class Work extends React.Component {
   render() {
     return (
       <div className="mx-auto row">
-        <div className="pt-5">
+        <div className="pt-1">
           <ul className="list-group d-inline">
             <li onMouseOver={() => this.showProject(projects, 2)}>
               Skate-Mate
