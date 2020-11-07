@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
-import { MarkGithubIcon } from "@primer/octicons-react";
+
 import Routes from "./Routes";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import "./App.css";
 
 class App extends Component {
@@ -16,12 +17,7 @@ class App extends Component {
           </span>
         </header>
         <Routes />
-        <footer className="fixed-bottom pb-2">
-          <p className="float-left pl-3">Phil Billingsby 2020</p>
-          <a href="https://github.com" target="_blank">
-            <MarkGithubIcon size={16} />
-          </a>
-        </footer>
+        <Footer />
       </div>
     );
   }

@@ -6,6 +6,11 @@ class Work extends React.Component {
   state = {
     project: null
   };
+  componentDidMount() {
+    this.setState({
+      project: projects[2]
+    });
+  }
   showProject(projects, num) {
     const shownProject = projects.find(project => project.index === num);
     this.setState({
