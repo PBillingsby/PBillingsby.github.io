@@ -28,7 +28,7 @@ li {
 }
 .orange-color,
 h2,
-li:hover {
+.list-group > li:hover {
   color: rgb(255, 172, 46);
 }
 a:hover {
