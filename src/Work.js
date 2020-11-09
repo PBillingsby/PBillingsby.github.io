@@ -8,7 +8,7 @@ class Work extends React.Component {
   };
   componentDidMount() {
     this.setState({
-      project: projects[2]
+      project: projects[0]
     });
   }
   showProject(projects, num) {
@@ -22,18 +22,18 @@ class Work extends React.Component {
       <div className="mx-auto row">
         <div className="pt-1">
           <ul className="list-group d-inline">
+            <li onMouseOver={() => this.showProject(projects, 0)}>
+              Arvo Beers
+            </li>
             <li onMouseOver={() => this.showProject(projects, 2)}>
               Skate-Mate
             </li>
             <li onMouseOver={() => this.showProject(projects, 1)}>
               The Daily Bump
             </li>
-            <li onMouseOver={() => this.showProject(projects, 0)}>
-              Arvo Beers
-            </li>
           </ul>
         </div>
-        <div className="col-lg pt-2">
+        <div className="col-lg pt-1">
           {this.state.project != null && (
             <ProjectCard project={this.state.project} />
           )}

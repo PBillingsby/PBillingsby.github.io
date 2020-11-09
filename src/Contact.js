@@ -3,37 +3,29 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <div className="container w-50 p-3 bg-light">
-        <h4 className="text-center text-dark">Contact me</h4>
+      <div className="w-50 float-left text-center">kfashfiuhas</div>
+      <div className="w-50 text-dark float-right">
+        <div class="form-header blue accent-1">
+          <h3 class="mt-2">
+            <i class="fa fa-envelope" aria-hidden="true"></i> Contact me
+          </h3>
+        </div>
         <form className="form-group mx-auto row w-50">
-          <div className="col-sm">
-            <input
-              type="text"
-              name="name"
-              className="form-control mb-2"
-              placeholder="First Name"
-            />
-            <input
-              type="text"
-              name="lname"
-              className="form-control mb-2"
-              placeholder="Last Name"
-            />
+          <div class="md-form">
+            <i class="fa fa-user prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control" />
+            <label for="form-name">Your name</label>
           </div>
-          <div className="pt-4">
-            <input
-              type="text"
-              name="email"
-              className="form-control mb-2"
-              placeholder="Email"
-            />
+          <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control" />
+            <label for="form-name">Email</label>
           </div>
-          <input
-            type="text"
-            name="subject"
-            className="form-control"
-            placeholder="Subject"
-          />
+          <div class="md-form">
+            <i class="fa fa-pencil prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control" />
+            <label for="form-name">Your name</label>
+          </div>
         </form>
       </div>
     </div>
