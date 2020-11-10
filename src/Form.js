@@ -7,13 +7,15 @@ const Form = () => {
 
       <form className="form-group mx-auto row w-50">
         <div className="md-form text-light">
-          <i className="fa fa-user prefix"></i>
-          <input
-            type="text"
-            id="form-name"
-            className="form-control"
-            placeholder="Your name"
-          />
+          <span className="d-inline-flex">
+            <i className="fa fa-user prefix"></i>
+            <input
+              type="text"
+              id="form-name"
+              className="form-control"
+              placeholder="Your name"
+            />
+          </span>
         </div>
         <div className="md-form text-light">
           <i className="fa fa-envelope prefix grey-text"></i>

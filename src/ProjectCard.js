@@ -6,7 +6,7 @@ const ProjectCard = props => {
   return (
     <div>
       <div
-        className="card no-gutters mb-1 border border-black text-white bg-opacity"
+        className="card mb-1 border border-black text-white bg-opacity"
         style={{ width: "50rem" }}
       >
         <div className="card-body text-center">
