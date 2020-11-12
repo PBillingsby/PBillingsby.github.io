@@ -12,9 +12,9 @@ const About = () => {
           </p>
         </div>
         <div className="main mx-auto w-50">
-          <div className="row">
+          <div className="row pt-4">
             <div className="col-lg">
-              <h1>Lorem</h1>
+              <h4 className="text-center orange-color">Lorem</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 ac elementum sem. Donec et pretium dolor. Cras tincidunt tempor
@@ -33,19 +33,19 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col-sm">
-              <i className="fa fa-paint-brush"></i>
+          <div className="row mx-auto">
+            <span className="col-sm d-inline-flex">
+              <i className="fa fa-paint-brush pr-2"></i>
               <p>Design</p>
-            </div>
-            <div className="col-sm">
-              <i className="fa fa-paint-brush"></i>
+            </span>
+            <span className="col-sm d-inline-flex">
+              <i className="fa fa-paint-brush pr-2"></i>
               <p>Design</p>
-            </div>
-            <div className="col-sm">
-              <i className="fa fa-paint-brush"></i>
+            </span>
+            <span className="col-sm d-inline-flex">
+              <i className="fa fa-paint-brush pr-2"></i>
               <p>Design</p>
-            </div>
+            </span>
           </div>
         </div>
       </div>
