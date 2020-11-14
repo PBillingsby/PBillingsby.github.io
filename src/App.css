@@ -24,12 +24,12 @@ li {
   object-fit: cover;
 }
 .bg-opacity {
-  background-color: #333;
+  background-color: #ffffff;
 }
 .orange-color,
 h2,
 .list-group > li:hover {
-  color: rgb(255, 172, 46);
+  color: #557a95;
 }
 a:hover {
   color: white;
