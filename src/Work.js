@@ -33,7 +33,7 @@ class Work extends React.Component {
             </li>
           </ul>
         </div>
-        <div className="col-lg pt-1">
+        <div className="col-lg pt-1 border-none">
           {this.state.project != null && (
             <ProjectCard project={this.state.project} />
           )}

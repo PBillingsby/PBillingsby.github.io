@@ -39,12 +39,7 @@ const About = () => {
           </div>
           <div className="row pt-4">
             <div className="col-lg">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                ac elementum sem. Donec et pretium dolor. Cras tincidunt tempor
-                felis eu pellentesque. Duis at quam dolor. Pellentesque aliquet
-                tortor
-              </p>
+              <p>With a non-tech background, I took a liking</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 ac elementum sem. Donec et pretium dolor. Cras tincidunt tempor

@@ -9,7 +9,6 @@ const ProjectCard = props => {
         className="card mb-1 border border-black bg-opacity"
         style={{ width: "55rem" }}
       >
-        <h2 class="card-title text-center mt-3">{project.title}</h2>
         <div className="card-body row ">
           <div className="col-8">
             <img
