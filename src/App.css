@@ -29,13 +29,12 @@ li {
 .orange-color,
 h2,
 h4,
-i,
-.list-group > li:hover {
+i {
   color: #557a95;
   font-family: Raleway;
 }
-a:hover {
-  color: white;
+.list-group > li:hover {
+  color: #957055;
 }
 .link-style {
   font-family: Raleway;

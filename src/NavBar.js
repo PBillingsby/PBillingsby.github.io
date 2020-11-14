@@ -7,21 +7,21 @@ const Navlink = () => {
       <NavLink
         exact
         to="/"
-        activeStyle={{ color: "#557a95" }}
+        activeStyle={{ color: "#957055" }}
         className="link-style text-decoration-none"
       >
         About
       </NavLink>
       <NavLink
         to="/work"
-        activeStyle={{ color: "#557a95" }}
+        activeStyle={{ color: "#957055" }}
         className="link-style text-decoration-none"
       >
         Work
       </NavLink>
       <NavLink
         to="/contact"
-        activeStyle={{ color: "#557a95" }}
+        activeStyle={{ color: "#957055" }}
         className="link-style text-decoration-none"
       >
         Contact
