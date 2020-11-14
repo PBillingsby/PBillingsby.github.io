@@ -10,11 +10,7 @@ class App extends Component {
   render() {
     return (
       <div id="main" className="container mt-3">
-        <header className="ml-3">
-          <span>
-            <Header />
-          </span>
-        </header>
+        <Header />
         <Routes />
         <Footer />
       </div>

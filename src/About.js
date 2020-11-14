@@ -11,10 +11,34 @@ const About = () => {
             and fixing web applications.
           </p>
         </div>
-        <div className="main mx-auto w-50">
+        <div className="main mx-auto w-50 pt-3">
+          <div className="justify-content-between">
+            <div className="row mx-auto">
+              <div className="col-sm border border-dark rounded text-center m-3">
+                <span className="d-inline-flex mt-2">
+                  <i className="fa fa-diamond pr-2 pt-1"></i>
+                  <h4>Design</h4>
+                </span>
+                <p>fasljkdhflask</p>
+              </div>
+              <div className="col-sm border border-dark rounded text-center m-3">
+                <span className="d-inline-flex mt-2">
+                  <i className="fa fa-code pr-2 pt-1"></i>
+                  <h4>Design</h4>
+                </span>
+                <p>fasljkdhflask</p>
+              </div>
+              <div className="col-sm border border-dark rounded text-center m-3">
+                <span className="d-inline-flex mt-2">
+                  <i className="fa fa-wrench pr-2 pt-1"></i>
+                  <h4>Design</h4>
+                </span>
+                <p>fasljkdhflask</p>
+              </div>
+            </div>
+          </div>
           <div className="row pt-4">
             <div className="col-lg">
-              <h4 className="text-center orange-color">Lorem</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 ac elementum sem. Donec et pretium dolor. Cras tincidunt tempor
@@ -28,20 +52,6 @@ const About = () => {
                 tortor
               </p>
             </div>
-          </div>
-          <div className="row mx-auto">
-            <span className="col-sm d-inline-flex">
-              <i className="fa fa-paint-brush pr-2"></i>
-              <p>Design</p>
-            </span>
-            <span className="col-sm d-inline-flex">
-              <i className="fa fa-cog pr-2"></i>
-              <p>Design</p>
-            </span>
-            <span className="col-sm d-inline-flex">
-              <i className="fa fa-database pr-2"></i>
-              <p>Design</p>
-            </span>
           </div>
         </div>
       </div>

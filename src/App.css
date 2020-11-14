@@ -28,6 +28,8 @@ li {
 }
 .orange-color,
 h2,
+h4,
+i,
 .list-group > li:hover {
   color: #557a95;
   font-family: Raleway;
