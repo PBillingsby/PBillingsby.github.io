@@ -3,25 +3,25 @@ import { NavLink } from "react-router-dom";
 
 const Navlink = () => {
   return (
-    <div>
+    <div className="w-100">
       <NavLink
         exact
         to="/"
-        activeStyle={{ color: "#fbeec1" }}
+        activeStyle={{ color: "#557a95" }}
         className="link-style text-decoration-none"
       >
         About
       </NavLink>
       <NavLink
         to="/work"
-        activeStyle={{ color: "#fbeec1" }}
+        activeStyle={{ color: "#557a95" }}
         className="link-style text-decoration-none"
       >
         Work
       </NavLink>
       <NavLink
         to="/contact"
-        activeStyle={{ color: "#fbeec1" }}
+        activeStyle={{ color: "#557a95" }}
         className="link-style text-decoration-none"
       >
         Contact

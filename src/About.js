@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="d-inline-flex">
       <div className="row">
-        <div className="float-left w-25 pt-4">
+        <div className="float-left w-25 pt-4 pl-3">
           <h4 className="orange-color">Full-Stack Software Developer</h4>
           <p>
             Based in Las Vegas, Nevada. I enjoy designing, building, breaking,
@@ -19,11 +19,7 @@ const About = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 ac elementum sem. Donec et pretium dolor. Cras tincidunt tempor
                 felis eu pellentesque. Duis at quam dolor. Pellentesque aliquet
-                tortor sed porttitor lacinia. Donec venenatis suscipit nibh in
-                tristique. Maecenas in fermentum lectus. Nam ut arcu tincidunt,
-                viverra purus nec, ullamcorper odio. Mauris aliquet sagittis
-                ipsum, sed imperdiet velit malesuada eget. Vivamus ac sodales
-                enim.
+                tortor
               </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
@@ -39,11 +35,11 @@ const About = () => {
               <p>Design</p>
             </span>
             <span className="col-sm d-inline-flex">
-              <i className="fa fa-paint-brush pr-2"></i>
+              <i className="fa fa-cog pr-2"></i>
               <p>Design</p>
             </span>
             <span className="col-sm d-inline-flex">
-              <i className="fa fa-paint-brush pr-2"></i>
+              <i className="fa fa-database pr-2"></i>
               <p>Design</p>
             </span>
           </div>

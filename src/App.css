@@ -24,12 +24,13 @@ li {
   object-fit: cover;
 }
 .bg-opacity {
-  background-color: #ffffff;
+  background-color: black;
 }
 .orange-color,
 h2,
 .list-group > li:hover {
   color: #557a95;
+  font-family: Raleway;
 }
 a:hover {
   color: white;
