@@ -11,28 +11,22 @@ const About = () => {
             and fixing web applications.
           </p>
         </div>
-        <div className="main mx-auto w-50 pt-3">
-          <div className="justify-content-between">
+        <div className="main mx-auto w-75 pt-3">
+          <div>
             <div className="row mx-auto">
-              <div className="col-sm border border-dark rounded text-center m-3">
-                <span className="d-inline-flex mt-2">
-                  <i className="fa fa-diamond pr-2 pt-1"></i>
-                  <h4>Design</h4>
-                </span>
+              <div className="col-sm border border-dark rounded text-center icon-style m-3">
+                <i className="fa fa-diamond pr-2 pt-1"></i>
+                <h4>Design</h4>
                 <p>fasljkdhflask</p>
               </div>
-              <div className="col-sm border border-dark rounded text-center m-3">
-                <span className="d-inline-flex mt-2">
-                  <i className="fa fa-code pr-2 pt-1"></i>
-                  <h4>Design</h4>
-                </span>
+              <div className="col-sm border border-dark rounded text-center icon-style m-3">
+                <i className="fa fa-code pr-2 pt-1"></i>
+                <h4>Design</h4>
                 <p>fasljkdhflask</p>
               </div>
-              <div className="col-sm border border-dark rounded text-center m-3">
-                <span className="d-inline-flex mt-2">
-                  <i className="fa fa-wrench pr-2 pt-1"></i>
-                  <h4>Design</h4>
-                </span>
+              <div className="col-sm border border-dark rounded text-center icon-style m-3">
+                <i className="fa fa-wrench pr-2 pt-1"></i>
+                <h4>Design</h4>
                 <p>fasljkdhflask</p>
               </div>
             </div>
