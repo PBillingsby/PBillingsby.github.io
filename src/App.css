@@ -1,9 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open-Sans&family=Lato&display=swap");
 body {
   color: white;
-  background-image: url("https://images.unsplash.com/photo-1580812568388-4f0496f2eb8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-  background-size: cover;
-  font-family: Montserrat;
+  background-image: url("https://images.unsplash.com/photo-1588364245428-e91d254d94ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-color: black;
+  background-position-x: -20vw;
+  background-position-y: 5vh;
+
+  background-repeat: no-repeat;
+  font-family: "Open-Sans";
 }
 footer {
   position: fixed;
@@ -19,6 +23,9 @@ ul {
 li {
   font-size: 1.2em;
 }
+.text-shadow {
+  text-shadow: 0.75px 0.75px black;
+}
 .icon-style {
   background-color: rgb(68, 68, 68, 0.8);
 }
@@ -30,12 +37,13 @@ li {
 .bg-opacity {
   background-color: black;
 }
-.orange-color,
+.blue-text,
 h2,
 h4,
-i {
+i,
+li {
   color: #557a95;
-  font-family: Raleway;
+  font-family: Lato;
 }
 h1,
 p,
@@ -43,7 +51,7 @@ p,
   color: #ffcb9a;
 }
 .link-style {
-  font-family: Raleway;
+  font-family: Lato;
   font-size: 1.5em;
   margin-right: 50px;
   text-decoration: none;
@@ -68,4 +76,9 @@ p,
 .fade-exit.fade-exit-active {
   opacity: 0.4;
   transition: opacity 100ms ease-in;
+}
+h1 {
+  font-size: 3rem;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #557a95;
 }

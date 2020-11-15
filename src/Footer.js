@@ -11,7 +11,7 @@ const Footer = () => {
             href="https://github.com/PBillingsby"
             rel="noopener noreferrer"
             target="_blank"
-            className="p-2 orange-color"
+            className="p-2 blue-text"
           >
             <i class="fa fa-github" aria-hidden="true"></i>
           </a>
@@ -19,7 +19,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/phil-billingsby/"
             rel="noopener noreferrer"
             target="_blank"
-            className="p-2 orange-color"
+            className="p-2 blue-text"
           >
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>
@@ -27,7 +27,7 @@ const Footer = () => {
             href="https://twitter.com/Phil_Billingsby"
             rel="noopener noreferrer"
             target="_blank"
-            className="p-2 orange-color"
+            className="p-2 blue-text"
           >
             <i class="fa fa-twitter-square" aria-hidden="true"></i>
           </a>

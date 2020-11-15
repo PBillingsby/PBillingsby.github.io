@@ -5,7 +5,7 @@ const About = () => {
     <div className="d-inline-flex">
       <div className="row">
         <div className="float-left w-25 pt-4 pl-3">
-          <h4 className="orange-color">Full-Stack Software Developer</h4>
+          <h4 className="blue-text">Full-Stack Software Developer</h4>
           <p>
             Based in Las Vegas, Nevada. I enjoy designing, building, breaking,
             and fixing web applications.
@@ -15,18 +15,19 @@ const About = () => {
           <div>
             <div className="row mx-auto">
               <div className="col-sm border border-dark rounded text-center icon-style m-3">
-                <i className="fa fa-diamond pr-2 pt-1"></i>
-                <h4>Design</h4>
+                <i className="fa fa-diamond pr-2"></i>
+                <h4 className="text-shadow">Design</h4>
+                <p>Front-end development</p>
+                <p className="blue-text">Tools used:</p>
+              </div>
+              <div className="col-sm border border-dark rounded text-center icon-style m-3">
+                <i className="fa fa-code pr-2"></i>
+                <h4 className="text-shadow">Design</h4>
                 <p>fasljkdhflask</p>
               </div>
               <div className="col-sm border border-dark rounded text-center icon-style m-3">
-                <i className="fa fa-code pr-2 pt-1"></i>
-                <h4>Design</h4>
-                <p>fasljkdhflask</p>
-              </div>
-              <div className="col-sm border border-dark rounded text-center icon-style m-3">
-                <i className="fa fa-wrench pr-2 pt-1"></i>
-                <h4>Design</h4>
+                <i className="fa fa-wrench pr-2"></i>
+                <h4 className="text-shadow">Design</h4>
                 <p>fasljkdhflask</p>
               </div>
             </div>
