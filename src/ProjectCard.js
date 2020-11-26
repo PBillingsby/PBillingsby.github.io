@@ -6,19 +6,17 @@ const ProjectCard = props => {
   return (
     <div>
       <div
-        className="card mb-1 border border-black bg-opacity"
-        style={{ width: "55rem" }}
+        className="card mb-1 mx-auto border border-black bg-opacity"
+        style={{ width: "40rem" }}
       >
         <div className="card-body row ">
-          <div className="col-8">
-            <img
-              src={project.src}
-              className="card-img-top img-thumbnail border border-dark rounded"
-            />
+          <div className="col-8 text-center">
+            <h2>{project.title}</h2>
+            <p>{project.about}</p>
+            <p>{project.description}</p>
           </div>
           <div className="col-sm">
             <div class="card-info">
-              <p>{project.description}</p>
               <p>
                 <strong>Technology used:</strong> {project.tech.join(", ")}
               </p>
