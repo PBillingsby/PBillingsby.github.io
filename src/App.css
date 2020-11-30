@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open-Sans&family=Lato&display=swap");
 body {
   color: white;
-  background-image: url("https://images.unsplash.com/photo-1588364245428-e91d254d94ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-image: url("https://images.unsplash.com/photo-1565252556332-4b297517b501?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80");
   background-color: black;
-  background-position-x: -20vw;
-  background-position-y: 5vh;
-
-  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Open-Sans";
 }
 footer {

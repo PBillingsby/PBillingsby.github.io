@@ -16,10 +16,10 @@ const ProjectCard = props => {
             <p>{project.description}</p>
           </div>
           <div className="col-sm">
-            <div class="card-info">
-              <p>
-                <strong>Technology used:</strong> {project.tech.join(", ")}
-              </p>
+            <div class="card-info pt-3">
+              {project.tech.map(tech => (
+                <li>{tech}</li>
+              ))}
             </div>
           </div>
         </div>
