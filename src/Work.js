@@ -20,7 +20,7 @@ class Work extends React.Component {
   render() {
     return (
       <div className="mx-auto row">
-        <div className="pt-1">
+        <div className="pt-4">
           <ul className="list-group d-inline">
             <li onMouseOver={() => this.showProject(projects, 0)}>
               Arvo Beers
@@ -33,7 +33,7 @@ class Work extends React.Component {
             </li>
           </ul>
         </div>
-        <div className="col-lg pt-1 border-none">
+        <div className="col-lg border-none">
           {this.state.project != null && (
             <ProjectCard project={this.state.project} />
           )}

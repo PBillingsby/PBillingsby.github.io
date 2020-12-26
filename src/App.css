@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open-Sans&family=Lato&display=swap");
 body {
   color: white;
-  background-image: url("https://images.unsplash.com/photo-1565252556332-4b297517b501?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80");
   background-color: black;
   background-size: cover;
+  font-family: "Open-Sans";
+}
+p {
   font-family: "Open-Sans";
 }
 footer {
@@ -44,7 +46,6 @@ li {
   font-family: Lato;
 }
 h1,
-p,
 .list-group > li:hover {
   color: #ffcb9a;
 }
