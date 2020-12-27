@@ -2,7 +2,6 @@ import React from "react";
 
 const ProjectCard = props => {
   const { project } = props;
-
   return (
     <div>
       <div className="card mb-1 mx-auto bg-opacity" style={{ width: "40rem" }}>

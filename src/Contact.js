@@ -4,14 +4,16 @@ const Contact = () => {
   return (
     <div>
       <div className="w-50 float-left text-center">
-        <ul class="list-unstyled mt-5">
+        <i class="fa fa-info fa-2x pt-4" aria-hidden="true"></i>
+        <p className="w-50 mx-auto">
+          To reach out for any additional information about opportunities for
+          collaboration or employment, please feel free to reach out for
+          anything
+        </p>
+        <ul class="list-unstyled mt-1">
           <li>
             <i class="fa fa-map-marker fa-2x" />
             <p>Las Vegas Valley Area, NV</p>
-          </li>
-          <li>
-            <i class="fa fa-phone fa-2x" />
-            <p>(215)439-0048</p>
           </li>
           <li>
             <i class="fa fa-envelope fa-2x" />

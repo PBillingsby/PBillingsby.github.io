@@ -21,17 +21,17 @@ class Work extends React.Component {
     return (
       <div className="mx-auto row">
         <div className="pt-4">
-          <ul className="list-group d-inline">
-            <li onMouseOver={() => this.showProject(projects, 0)}>
+          <div className="list-group d-inline">
+            <h4 onMouseOver={() => this.showProject(projects, 0)}>
               Arvo Beers
-            </li>
-            <li onMouseOver={() => this.showProject(projects, 2)}>
+            </h4>
+            <h4 onMouseOver={() => this.showProject(projects, 2)}>
               Skate-Mate
-            </li>
-            <li onMouseOver={() => this.showProject(projects, 1)}>
+            </h4>
+            <h4 onMouseOver={() => this.showProject(projects, 1)}>
               The Daily Bump
-            </li>
-          </ul>
+            </h4>
+          </div>
         </div>
         <div className="col-lg border-none">
           {this.state.project != null && (

@@ -7,7 +7,7 @@ const Form = () => {
 
       <form className="form-group mx-auto row w-50">
         <div className="md-form text-light">
-          <span className="d-inline-flex">
+          <span className="d-inline-block pb-3">
             <i className="fa fa-user prefix"></i>
             <input
               type="text"
@@ -18,24 +18,30 @@ const Form = () => {
           </span>
         </div>
         <div className="md-form text-light">
-          <i className="fa fa-envelope prefix grey-text"></i>
-          <input
-            type="text"
-            id="form-name"
-            className="form-control"
-            placeholder="Email"
-          />
+          <span className="d-inline-block pb-3">
+            <i className="fa fa-envelope prefix grey-text"></i>
+            <input
+              type="text"
+              id="form-name"
+              className="form-control"
+              placeholder="Email"
+            />
+          </span>
         </div>
         <div class="md-form text-light">
-          <i className="fa fa-pencil prefix grey-text"></i>
-          <input
-            type="text"
-            id="form-name"
-            className="form-control"
-            placeholder="Your message"
-          />
+          <span className="d-inline-block pb-3">
+            <i className="fa fa-pencil prefix grey-text"></i>
+            <textarea
+              rows="6"
+              type="text"
+              id="form-name"
+              className="form-control"
+              placeholder="Your message"
+            />
+          </span>
         </div>
-        <button type="submit" className="btn btn-light mt-2">
+        <br />
+        <button type="submit" className="mx-auto btn btn-light mt-2">
           Submit
         </button>
       </form>
